@@ -1,0 +1,5 @@
+Wine-Oh App Version 1
+
+Description: Wine-Oh is an Android App that allows the user to save a list of wines tried and write notes about the particular wine.
+
+Improvements: Version 1 is missing support for onPause (Back button) and onDestroy. In future versions there will be support for a rating system, wish list of wines to try, picture taking of wines, check boxes to speed up adding wine process for types of wine, organization by type, sorting by various features and ability to learn more about a particular wine.
