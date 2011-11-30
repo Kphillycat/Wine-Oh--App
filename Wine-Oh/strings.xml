@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WineSnobActivity!</string>
+    <string name="app_name">WineSnob</string>
+    <string name="wine_name_title">Wine Name</string>
+    <string name="notes_title">Notes</string>
+    <string name="save_button_title">SAVE</string>
+    <string name="cancel_button_title">CANCEL</string>
+    <string name="add_menu_title">Add</string>
+    <string name="editWine">Edit</string>
+    <string name="deleteWine">Delete</string>
+</resources>

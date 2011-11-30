@@ -1,0 +1,18 @@
+This guide explains the details of the Wine-Oh(formally WineSnob) App Code Samples
+
+Format Example: 
+#) Name_of_file | type of file (language) | details of file
+
+1) add_wine | XML | The screen seen by the user when adding a Wine name and notes. 
+2) AddWineActivity | Java | Goes with add_wine, provides backend functionality of screen
+3) main | XML | Main screen user sees when App is started
+4) strings | XML | Resource file for Name/Value pairs of string variables
+5) wine_list_item | XML | Custom layout view for one Wine name/notes combo item
+6) wine_list_menu | XML | Resource file for menu details only has "Add" wine capability in this version
+7) WineListDatabaseHelper | Java | Helper for creating and accessing the database of Wine names and notes
+8) WineRecord | Java | Actual Wine Object with variables, accessors and modifiers
+9) WineSnobActivity | Java | Goes with main, provides backend functionality of Main screen
+10) WineSnobAdapter | Java | Interfaces between layout view and database
+
+*Side note: Long pressing on a Wine Item will bring up Context Menu with Delete and Edit options. This functionality is outlined in the WineSnobActivity.
+

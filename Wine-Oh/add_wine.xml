@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    
+<TextView 
+	android:text="@string/wine_name_title" 
+	android:id="@+id/wineNameTitle" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dp"></TextView>
+	
+<EditText 
+	android:id="@+id/wine_name_entry"
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	
+	android:layout_marginBottom="10dp">
+        
+</EditText>
+
+<TextView 
+	android:text="@string/notes_title" 
+	android:id="@+id/notesTitle" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dp"></TextView>
+	
+<EditText 
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:id="@+id/notes_entry"
+	android:layout_weight="1">
+</EditText>
+
+<LinearLayout 
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:orientation="horizontal"
+	android:gravity="center_horizontal"
+	android:layout_weight="0"
+	android:background="#FF8D8D8D">
+	
+    <Button 
+        android:text="@string/save_button_title" 
+        android:id="@+id/saveButton" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:onClick="onSave"></Button>
+        
+    <Button 
+    	android:text="@string/cancel_button_title" 
+    	android:id="@+id/cancelButton" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:onClick="onCancel"></Button>
+    </LinearLayout>
+    
+</LinearLayout>
