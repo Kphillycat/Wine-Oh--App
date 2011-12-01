@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="WineMenu">
+        <item >@string/editWine</item>
+        <item >@string/deleteWine</item>
+    </string-array>
+
+    
+</resources>
